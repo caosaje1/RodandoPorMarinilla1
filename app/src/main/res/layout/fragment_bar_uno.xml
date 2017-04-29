@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.caosaje1.rodandopormarinilla.BarUnoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/baruno"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hacedor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El Libro Bar El Hacedor es un espacio donde puedes compartir con tus amigos de una buena noche de musica en vivo. Los generos musicales que podras encontrar en este lugar son: \n Pop, Salsa, Musica social, Rock en español, Baladas , entre otros. \n En El Hacedor tambien puedes disfrutar de recitales de poesia, cuenteria, talleres de literatura en horario diurno. \n El hacedor nace como una idea de integrar la lectura con la bohemia, por esto dentro de este recinto te toparas con muchos libros en sus paredes. \n Uno de los lemas más representativos de este lugar es: \n 'EN MARINILLA SE SALUDA Y SE SONRIE'(en memoria a un amigo del bar) \n \n \n \n "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

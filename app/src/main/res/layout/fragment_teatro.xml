@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.caosaje1.rodandopormarinilla.TeatroFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/teatro"
+            android:textStyle="bold"
+            android:textColor="@color/whitesmoke"
+            android:gravity="center_horizontal"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/acordes"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/girante"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Corporacion Acordes"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Teatro Girante"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whitesmoke"
+            android:text="\n Marinilla como municipio con grandes bondades culturales, tiene la fortuna de contar con dos corporaciones que fomentan de forma muy profesional, la practica y la exposición del teatro. Como prueba de ello tanto la Corporacion Artistica y Cultural ACORDES, como la Corporacio TEATRO GIRANTE, cuentan con salas concertadas con miniterio de cultura colombiano.\n Cabe resaltar que ambas corporaciones tambien se dictan talleres de formación para los nuevos talentos del municipio.\n Estos dos maravillosos espacios los puedes encontrar cerca del parque principal de Marinilla. \n \n \n \n "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

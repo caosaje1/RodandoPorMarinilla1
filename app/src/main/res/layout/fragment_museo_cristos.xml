@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.caosaje1.rodandopormarinilla.MuseoCristosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/museo"
+            android:textStyle="bold"
+            android:textColor="@color/whitesmoke"
+            android:gravity="center_horizontal"
+            android:textSize="35sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cristos1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whitesmoke"
+            android:text="\n Marinilla cuenta con la colección de cristos más grande del mundo, cuenta con 2760 Cristos y Cruces de diferentes países y continentes. Cristos cristianos y no cristianos, cruces taú, gamada, celtas, latinas, con proclamación, bálticas, en todos los materiales desde los más artesanales como madera, cabuya, chatarra, en alimentos, en oro, plata, con incrustaciones de piedras preciosas. \n \n \n \n "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

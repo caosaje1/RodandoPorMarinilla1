@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.caosaje1.rodandopormarinilla.BarDosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bardos"
+        android:textStyle="bold|italic"
+        android:textColor="@color/whitesmoke"
+        android:gravity="center"
+        android:textSize="35sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sacristia"
+        android:layout_gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n La Sacristia es uno de los bares que más se sostiene a lo largo del tiempo, aunque Marinilla tradicionalmente es conservadora, este espacio para El Metal se continua. \n Este bar es bien reconocido por sus fiestas del genero Glam y Hard Rock, a estas fistas asisten amantes este genero desde varias partes del departamento. \n "
+            android:textSize="20sp"
+            android:textColor="@color/whitesmoke"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sacristia1"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Estas son algunas de las bandas que podras encontrar en este maravilloso santuario del Rock and Roll. \n \n \n \n "
+            android:textSize="20sp"
+            android:textColor="@color/whitesmoke"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

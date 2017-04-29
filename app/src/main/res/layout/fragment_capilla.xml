@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context="com.caosaje1.rodandopormarinilla.CapillaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/capilla"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:textSize="35sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/capilla" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n De tipo doctrinero, construida por el primer párroco de Marinilla Fabián Sebastián Jiménez y Fajardo entre los años de 1752 y 1760, fue declarada Patrimonio Arquitectónico de la Nación por Decreto Nr. 086 de octubre de 1968, rica en pinturas religiosas europeas de alto valor artístico e histórico del siglo Vlll y XlX. \n \n \n \n"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

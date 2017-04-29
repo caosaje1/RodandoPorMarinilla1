@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caosaje1.rodandopormarinilla">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".FragmentexActivity" />
+        <activity
+            android:name=".BaresActivity"
+            android:label="@string/title_activity_bares"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CulturalActivity"
+            android:label="@string/title_activity_cultural"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LugaresActivity"
+            android:label="@string/title_activity_lugares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListaActivity"></activity>
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

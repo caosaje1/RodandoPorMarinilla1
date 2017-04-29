@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mMiperfil"
+        android:title="@string/miperfil"
+        />
+
+    <item
+        android:id="@+id/mBares"
+        android:title="@string/bares"/>
+    <item
+        android:id="@+id/mCultural"
+        android:title="@string/cultura"/>
+    <item
+        android:id="@+id/mLugares"
+        android:title="@string/lugares"/>
+    <item
+        android:id="@+id/mCerrar"
+        android:title="@string/cerrarSesion"
+        />
+
+</menu>

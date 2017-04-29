@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context="com.caosaje1.rodandopormarinilla.MusicaReligiosaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/musica"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:textSize="35sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/musica" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whitesmoke"
+            android:text="\n 'Como un complemento a las grandes celebraciones tradicionales en la Semana Santa en Marinilla, se iniciaron en la Ciudad la celebración del Festival de Música Religiosa a partir del año 1978, evento que han tenido como escenario principal la Capilla de Jesús Nazareno por su ambiente de recogimiento, de tradición, arte y acústica. En esos días el arte de la música se une a la fe y a la piedad para elevar al hombre hasta las sublimes alturas del ideal humano, que es Dios porque la Semana Santa en Marinilla  es una cita cordial de fe, cultura y arte que busca ante todo el retorno a Dios. Es considerado uno de los Festivales de Música Religiosa más importante a nivel mundial.' \n \n \n \n "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.caosaje1.rodandopormarinilla.GuitarrasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/guitarras"
+            android:textStyle="bold"
+            android:textColor="@color/whitesmoke"
+            android:gravity="center_horizontal"
+            android:textSize="35sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guitarras1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n La familia de los Arbelaez es muy reconocida en el municipio de Marinilla, gracias a sostener una tradicion de construir guitarras.\n Esta bonita tradicion viene desde el abuelo de don Luis Arbelaez quien relata que esta labor se desarroola en Marinilla desde el año 1860.\n No solo son representativas por venir de una tradición sino tambiém de su calidad acustica. \n \n \n \n"
+            android:textSize="20sp"
+            android:textColor="@color/whitesmoke"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

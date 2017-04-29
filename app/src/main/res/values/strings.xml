@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RodandoPorMarinilla</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="registro">Registrarse</string>
+    <string name="repetircontraseña">Confirmar contraseña</string>
+    <string name="correo">Correo electronico</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="miperfil">Mi Perfil</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="principal">Principal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="baruno">Libro Bar el Hacedor</string>
+    <string name="bardos">SACRISTIA BAR</string>
+    <string name="hacedor">Libro Bar El Hacedor</string>
+    <string name="sacristia">Sacristia Bar</string>
+    <string name="title_activity_bares">BaresActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="bartres">Restaurante-Bar La Esparta</string>
+    <string name="title_activity_cultural">Cultural</string>
+    <string name="museo">Museo de los Cristos</string>
+    <string name="musica">Festival de Musica Religiosa</string>
+    <string name="teatro">Teatro</string>
+    <string name="cascadas">Cascadas Vereda Pozo</string>
+    <string name="guitarras">Tradicional Fabrica de Guitarras</string>
+    <string name="capilla">Capilla de Jesús Nazaret</string>
+    <string name="title_activity_lugares">LugaresActivity</string>
+    <string name="bares">Bares</string>
+    <string name="cultura">Cultura Marinilla</string>
+    <string name="lugares">Lugares Representativos</string>
+    <string name="descripcion">Encontraras música en vivo</string>
+    <string name="direccion">Media cuadra al parque principal</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
